@@ -7,7 +7,6 @@
 
 <script>
 import GoodsListItem from './GoodsListItem.vue'
-
 export default {
   props:{
     goods:{
@@ -18,7 +17,7 @@ export default {
     }
   },
   components:{
-    GoodsListItem
+    GoodsListItem,
   },
   methods:{
     //goodsLoad(){

@@ -77,7 +77,7 @@ export default {
   },
   activated(){
     this.$refs.homeScroll.scrollTo(0,this.saveY)
-    this.$refs.homeScroll.refresh()
+        this.$refs.homeScroll.refresh()
   },
   deactivated(){
     this.saveY = this.$refs.homeScroll.scroll.y
